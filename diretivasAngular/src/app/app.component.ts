@@ -8,11 +8,31 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
   count:number = 0;
 
+  pessoas = [
+    {
+      nome: "Ivonaldo",
+      sobrenome: "Soares"
+    },
+    {
+      nome: "Maria",
+      sobrenome: "Silva"
+    },
+    {
+      nome: "João",
+      sobrenome: "Pereira"
+    },
+    {
+      nome: "Renan",
+      sobrenome: "Martarelli"
+    },
+  ]
+
   constructor(){
 
   }
 
   ngOnInit(): void {
+      console.log(this.pessoas)
       let interval = setInterval(() => {
         this.count++;
         if(this.count === 10){

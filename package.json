@@ -1,0 +1,19 @@
+{
+  "name": "diretivasangular-dio",
+  "version": "1.0.0",
+  "description": "Projeto para aplicar conceitos de diretivas em Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martarelli/diretivasAngular-DIO.git"
+  },
+  "author": "Renan Martarelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martarelli/diretivasAngular-DIO/issues"
+  },
+  "homepage": "https://github.com/Martarelli/diretivasAngular-DIO#readme"
+}

@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+
   count:number = 0;
+  nome:string = 'Renan Martarelli'
 
   pessoas = [
     {
@@ -39,5 +41,9 @@ export class AppComponent implements OnInit{
           clearInterval(interval)
         }
       }, 1000)
+  }
+
+  clicou(nome:string): void {
+    console.log('Clicou em mim', nome)
   }
 }

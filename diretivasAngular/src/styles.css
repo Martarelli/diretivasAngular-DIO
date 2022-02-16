@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.custom {
+  font-weight: 1000;
+  font-style: italic;
+  color: #fff;
+}

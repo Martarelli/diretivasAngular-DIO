@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Martarelli/diretivasAngular-DIO/issues"
   },
-  "homepage": "https://github.com/Martarelli/diretivasAngular-DIO#readme"
+  "homepage": "https://github.com/Martarelli/diretivasAngular-DIO#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }

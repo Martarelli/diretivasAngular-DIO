@@ -1,3 +1,4 @@
+import { PeopleService } from './shared/services/people.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,26 +12,9 @@ export class AppComponent implements OnInit{
   nome:string = 'Renan Martarelli';
   text:string = '';
 
-  pessoas = [
-    {
-      nome: "Ivonaldo",
-      sobrenome: "Soares"
-    },
-    {
-      nome: "Maria",
-      sobrenome: "Silva"
-    },
-    {
-      nome: "João",
-      sobrenome: "Pereira"
-    },
-    {
-      nome: "Renan",
-      sobrenome: "Martarelli"
-    },
-  ];
+  pessoas = []
 
-  constructor(){
+  constructor(private peopleService: PeopleService){
 
   }
 
